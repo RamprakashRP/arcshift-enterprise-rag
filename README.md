@@ -1,4 +1,4 @@
-# **Textify** 📝
+# **ArcShift** 📝
 
 **AI-powered intelligent document Q&A agent**. Upload PDFs, Word docs, and emails to get instant answers with citations and confidence scores. Perfect for **insurance documents** and other structured/unstructured files.
 
@@ -71,7 +71,7 @@
 ### **Steps**
 ````
 
-`git clone https://github.com/your_username/textify.git cd textify/backend
+`git clone https://github.com/your_username/arcshift.git cd arcshift/backend
 pip install -r requirements.txt` 
 ````
 

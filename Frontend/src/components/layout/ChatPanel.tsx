@@ -158,7 +158,7 @@ export const ChatPanel = ({ documents, selectedFileIds, onGlobalSearchComplete, 
       <div className="p-4 border-b border-border/50 bg-card/50">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-lg font-semibold text-foreground">Chat with Textify</h2>
+            <h2 className="text-lg font-semibold text-foreground">Chat with ArcShift</h2>
             <p className="text-sm text-muted-foreground">
               {selectedFileIds.length > 0
                 ? `Ask questions about your ${selectedFileIds.length} selected document${selectedFileIds.length > 1 ? 's' : ''}`
@@ -178,7 +178,7 @@ export const ChatPanel = ({ documents, selectedFileIds, onGlobalSearchComplete, 
               <Bot className="w-10 h-10 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-2">
-              Ready to analyze your documents with Textify
+              Ready to analyze your documents with ArcShift
             </h3>
             <p className="text-muted-foreground max-w-md">
               Upload PDFs, Word documents, or emails, then ask me anything about their content. 
@@ -289,7 +289,7 @@ export const ChatPanel = ({ documents, selectedFileIds, onGlobalSearchComplete, 
           <Input
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder="Ask Textify anything about your documents..."
+            placeholder="Ask ArcShift anything about your documents..."
             onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
             className="flex-1 h-12 bg-background border-border/50 focus:border-primary/50 transition-smooth"
           />

@@ -23,7 +23,7 @@ export const Header = ({ onNewChat }: HeaderProps) => {
         </div>
         <div>
           <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            Textify
+            ArcShift
           </h1>
           <p className="text-xs text-muted-foreground -mt-1">
             Your intelligent research assistant

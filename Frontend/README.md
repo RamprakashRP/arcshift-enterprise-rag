@@ -1,4 +1,4 @@
-# Textify
+# ArcShift
 
 AI-powered intelligent document Q&A agent. Upload PDFs, Word docs, and emails to get instant answers with citations and confidence scores.
 
